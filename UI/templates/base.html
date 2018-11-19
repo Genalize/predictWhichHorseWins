@@ -1,0 +1,45 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" media="screen"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+    <title>Sentiment Analyser</title>
+    <!--  -->
+    
+    {% block styles  %}
+    
+    {% endblock  %}
+
+</head>
+
+<body>
+
+<section id="company_intro">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h3 class="app_title">Sentiment Analyser</h3>
+            <!--    <p class="app_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem deserunt necessitatibus voluptatum placeat. Voluptate, ad voluptatum impedit! Excepturi autem quisquam tempora, ducimus sunt.</p> 
+            -->
+            </div>
+        </div>
+    </div>
+</section>
+
+{% block content %}
+{% endblock %}
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+{% block scripts %}
+{% endblock  %}
+
+</body>
+</html>

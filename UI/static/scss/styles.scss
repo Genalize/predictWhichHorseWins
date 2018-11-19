@@ -1,0 +1,68 @@
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{
+    font-family: 'Lato', sans-serif;
+}
+
+#company_intro{
+        padding: 120px 0;
+    padding-bottom: 50px;
+}
+
+#company_intro .app_title{
+    font-size: 50px;
+    font-weight: 100;
+}
+
+.app_description{
+font-size: 19px;
+    padding-top: 15px;
+    font-weight: 300;
+    color: #000000;
+}
+
+#main_content{
+    .senti_table{
+        thead{
+                background: #7f8c8d;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+        }
+    }
+}
+.horse_table{
+    tbody{
+        tr:first-child{
+            td{
+                border-top: 0;
+            }
+        }
+        .btn{
+                padding: 1px 13px;
+                color: white;
+        }
+        .positive{
+            .btn{
+                background: green;
+            }
+        }
+        
+        .negative{
+            .btn{
+                background: red;
+            }
+        }
+        .neutral{
+            .btn{
+                background: grey;
+            }
+        }
+
+    }
+}
+.horse_table>tbody>tr>td, .horse_table>tbody>tr>th, .horse_table>tfoot>tr>td, .horse_table>tfoot>tr>th, .horse_table>thead>tr>td, .horse_table>thead>tr>th {
+    padding: 5px;
+}
